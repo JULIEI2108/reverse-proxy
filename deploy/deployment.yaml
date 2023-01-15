@@ -15,7 +15,7 @@ spec:
         app: reverseproxy
     spec:
       containers:
-      - image: juliejin/simple-reverse-proxy
+      - image: juliejin/simple-reverse-proxy:latest
         name: reverseproxy
         imagePullPolicy: Always
         resources:
